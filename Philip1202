@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PHILIP AMAZON</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #333333, #cccccc);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h1 {
+      color: white;
+      margin: 40px 0 20px;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      padding: 20px;
+      max-width: 1200px;
+    }
+
+    .item {
+      background: linear-gradient(to bottom right, #b3ffb3, #006600);
+      padding: 10px;
+      border-radius: 20px;
+      transition: transform 0.2s;
+    }
+
+    .item:hover {
+      transform: scale(1.05);
+    }
+
+    .item img {
+      width: 250px;
+      height: auto;
+      border-radius: 15px;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <h1>PHILIP AMAZON</h1>
+  <div class="gallery">
+    <a class="item" href="https://www.amazon.ca/dp/B0DJM3RSD7/ref=cm_sw_r_as_gl_apa_gl_i_JQ06X0291ZVCHTXN4Y45?linkCode=ml1&tag=amazon0e1e7b-20" target="_blank">
+      <img src="images/blender.jpg" alt="Blender TOPZEE">
+    </a>
+    <a class="item" href="https://amzn.to/42QS0I9" target="_blank">
+      <img src="images/firehd8.jpg" alt="Fire HD8">
+    </a>
+    <a class="item" href="https://amzn.to/4cGpXyE" target="_blank">
+      <img src="images/chaussettes.jpg" alt="Chaussettes de compression">
+    </a>
+    <a class="item" href="https://amzn.to/3GfUZ4e" target="_blank">
+      <img src="images/ecouteurs.jpg" alt="Écouteurs sans fil">
+    </a>
+    <a class="item" href="https://amzn.to/4jiOFHZ" target="_blank">
+      <img src="images/hautparleur.jpg" alt="Haut-parleur Bluetooth">
+    </a>
+  </div>
+</body>
+</html>
+
